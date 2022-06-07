@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 public class LogoutPage 
 {
 	WebDriver driver;
-	
+	//juhi
 	@FindBy (xpath="//button[@id='react-burger-menu-btn']")
 	private WebElement menuButton;
 	
