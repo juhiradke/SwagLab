@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-06T15:59:54 IST" name="Suite" finished-at="2022-06-06T16:01:05 IST" duration-ms="70685">
+    <groups>
+    </groups>
+    <test started-at="2022-06-06T15:59:54 IST" name="ChromeTest" finished-at="2022-06-06T16:00:15 IST" duration-ms="21215">
+      <class name="TestClasses.SwagLabTestClass">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestClasses.SwagLabTestClass@4d5b6aac]" started-at="2022-06-06T15:59:54 IST" name="launchBrowser" finished-at="2022-06-06T16:00:00 IST" duration-ms="6131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="pomObject()[pri:0, instance:TestClasses.SwagLabTestClass@4d5b6aac]" started-at="2022-06-06T16:00:00 IST" name="pomObject" finished-at="2022-06-06T16:00:00 IST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pomObject -->
+        <test-method is-config="true" signature="loginApplication()[pri:0, instance:TestClasses.SwagLabTestClass@4d5b6aac]" started-at="2022-06-06T16:00:00 IST" name="loginApplication" finished-at="2022-06-06T16:00:06 IST" duration-ms="5391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="verifyTest1()[pri:-1, instance:TestClasses.SwagLabTestClass@4d5b6aac]" started-at="2022-06-06T16:00:06 IST" name="verifyTest1" finished-at="2022-06-06T16:00:06 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest1 -->
+        <test-method is-config="true" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:TestClasses.SwagLabTestClass@4d5b6aac]" started-at="2022-06-06T16:00:06 IST" name="logoutFromApp" finished-at="2022-06-06T16:00:06 IST" duration-ms="273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTest1 status=SUCCESS method=SwagLabTestClass.verifyTest1()[pri:-1, instance:TestClasses.SwagLabTestClass@4d5b6aac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="loginApplication()[pri:0, instance:TestClasses.SwagLabTestClass@4d5b6aac]" started-at="2022-06-06T16:00:06 IST" name="loginApplication" finished-at="2022-06-06T16:00:07 IST" duration-ms="1433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="verifyTest5()[pri:0, instance:TestClasses.SwagLabTestClass@4d5b6aac]" started-at="2022-06-06T16:00:07 IST" name="verifyTest5" finished-at="2022-06-06T16:00:08 IST" duration-ms="1009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest5 -->
+        <test-method is-config="true" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:TestClasses.SwagLabTestClass@4d5b6aac]" started-at="2022-06-06T16:00:08 IST" name="logoutFromApp" finished-at="2022-06-06T16:00:09 IST" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTest5 status=SUCCESS method=SwagLabTestClass.verifyTest5()[pri:0, instance:TestClasses.SwagLabTestClass@4d5b6aac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="loginApplication()[pri:0, instance:TestClasses.SwagLabTestClass@4d5b6aac]" started-at="2022-06-06T16:00:09 IST" name="loginApplication" finished-at="2022-06-06T16:00:10 IST" duration-ms="1715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="verifyTest2()[pri:1, instance:TestClasses.SwagLabTestClass@4d5b6aac]" started-at="2022-06-06T16:00:10 IST" name="verifyTest2" finished-at="2022-06-06T16:00:11 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest2 -->
+        <test-method is-config="true" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:TestClasses.SwagLabTestClass@4d5b6aac]" started-at="2022-06-06T16:00:11 IST" name="logoutFromApp" finished-at="2022-06-06T16:00:11 IST" duration-ms="196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTest2 status=SUCCESS method=SwagLabTestClass.verifyTest2()[pri:1, instance:TestClasses.SwagLabTestClass@4d5b6aac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="loginApplication()[pri:0, instance:TestClasses.SwagLabTestClass@4d5b6aac]" started-at="2022-06-06T16:00:11 IST" name="loginApplication" finished-at="2022-06-06T16:00:11 IST" duration-ms="605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="verifyTest23()[pri:2, instance:TestClasses.SwagLabTestClass@4d5b6aac]" started-at="2022-06-06T16:00:11 IST" name="verifyTest23" finished-at="2022-06-06T16:00:12 IST" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest23 -->
+        <test-method is-config="true" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:TestClasses.SwagLabTestClass@4d5b6aac]" started-at="2022-06-06T16:00:12 IST" name="logoutFromApp" finished-at="2022-06-06T16:00:12 IST" duration-ms="219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTest23 status=SUCCESS method=SwagLabTestClass.verifyTest23()[pri:2, instance:TestClasses.SwagLabTestClass@4d5b6aac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="loginApplication()[pri:0, instance:TestClasses.SwagLabTestClass@4d5b6aac]" started-at="2022-06-06T16:00:12 IST" name="loginApplication" finished-at="2022-06-06T16:00:13 IST" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="verifyTest3()[pri:3, instance:TestClasses.SwagLabTestClass@4d5b6aac]" started-at="2022-06-06T16:00:13 IST" name="verifyTest3" finished-at="2022-06-06T16:00:13 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest3 -->
+        <test-method is-config="true" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:TestClasses.SwagLabTestClass@4d5b6aac]" started-at="2022-06-06T16:00:13 IST" name="logoutFromApp" finished-at="2022-06-06T16:00:13 IST" duration-ms="269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTest3 status=SUCCESS method=SwagLabTestClass.verifyTest3()[pri:3, instance:TestClasses.SwagLabTestClass@4d5b6aac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="loginApplication()[pri:0, instance:TestClasses.SwagLabTestClass@4d5b6aac]" started-at="2022-06-06T16:00:13 IST" name="loginApplication" finished-at="2022-06-06T16:00:14 IST" duration-ms="895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="verifyTest4()[pri:4, instance:TestClasses.SwagLabTestClass@4d5b6aac]" started-at="2022-06-06T16:00:14 IST" name="verifyTest4" finished-at="2022-06-06T16:00:15 IST" duration-ms="781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest4 -->
+        <test-method is-config="true" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:TestClasses.SwagLabTestClass@4d5b6aac]" started-at="2022-06-06T16:00:15 IST" name="logoutFromApp" finished-at="2022-06-06T16:00:15 IST" duration-ms="273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTest4 status=SUCCESS method=SwagLabTestClass.verifyTest4()[pri:4, instance:TestClasses.SwagLabTestClass@4d5b6aac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:TestClasses.SwagLabTestClass@4d5b6aac]" started-at="2022-06-06T16:00:15 IST" name="clearObject" finished-at="2022-06-06T16:00:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="ClosedBrowser()[pri:0, instance:TestClasses.SwagLabTestClass@4d5b6aac]" started-at="2022-06-06T16:00:15 IST" name="ClosedBrowser" finished-at="2022-06-06T16:00:15 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosedBrowser -->
+      </class> <!-- TestClasses.SwagLabTestClass -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-06-06T16:00:15 IST" name="FireFoxTest" finished-at="2022-06-06T16:01:05 IST" duration-ms="49402">
+      <class name="TestClasses.SwagLabTestClass">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestClasses.SwagLabTestClass@741a8937]" started-at="2022-06-06T16:00:15 IST" name="launchBrowser" finished-at="2022-06-06T16:00:41 IST" duration-ms="25972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="pomObject()[pri:0, instance:TestClasses.SwagLabTestClass@741a8937]" started-at="2022-06-06T16:00:41 IST" name="pomObject" finished-at="2022-06-06T16:00:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pomObject -->
+        <test-method is-config="true" signature="loginApplication()[pri:0, instance:TestClasses.SwagLabTestClass@741a8937]" started-at="2022-06-06T16:00:41 IST" name="loginApplication" finished-at="2022-06-06T16:00:45 IST" duration-ms="4195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="verifyTest1()[pri:-1, instance:TestClasses.SwagLabTestClass@741a8937]" started-at="2022-06-06T16:00:45 IST" name="verifyTest1" finished-at="2022-06-06T16:00:45 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest1 -->
+        <test-method is-config="true" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:TestClasses.SwagLabTestClass@741a8937]" started-at="2022-06-06T16:00:45 IST" name="logoutFromApp" finished-at="2022-06-06T16:00:46 IST" duration-ms="678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTest1 status=SUCCESS method=SwagLabTestClass.verifyTest1()[pri:-1, instance:TestClasses.SwagLabTestClass@741a8937] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="loginApplication()[pri:0, instance:TestClasses.SwagLabTestClass@741a8937]" started-at="2022-06-06T16:00:46 IST" name="loginApplication" finished-at="2022-06-06T16:00:47 IST" duration-ms="1121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="verifyTest5()[pri:0, instance:TestClasses.SwagLabTestClass@741a8937]" started-at="2022-06-06T16:00:47 IST" name="verifyTest5" finished-at="2022-06-06T16:00:49 IST" duration-ms="1866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest5 -->
+        <test-method is-config="true" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:TestClasses.SwagLabTestClass@741a8937]" started-at="2022-06-06T16:00:49 IST" name="logoutFromApp" finished-at="2022-06-06T16:00:50 IST" duration-ms="522" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTest5 status=SUCCESS method=SwagLabTestClass.verifyTest5()[pri:0, instance:TestClasses.SwagLabTestClass@741a8937] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="loginApplication()[pri:0, instance:TestClasses.SwagLabTestClass@741a8937]" started-at="2022-06-06T16:00:50 IST" name="loginApplication" finished-at="2022-06-06T16:00:50 IST" duration-ms="794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="verifyTest2()[pri:1, instance:TestClasses.SwagLabTestClass@741a8937]" started-at="2022-06-06T16:00:50 IST" name="verifyTest2" finished-at="2022-06-06T16:00:51 IST" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest2 -->
+        <test-method is-config="true" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:TestClasses.SwagLabTestClass@741a8937]" started-at="2022-06-06T16:00:51 IST" name="logoutFromApp" finished-at="2022-06-06T16:00:51 IST" duration-ms="511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTest2 status=SUCCESS method=SwagLabTestClass.verifyTest2()[pri:1, instance:TestClasses.SwagLabTestClass@741a8937] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="loginApplication()[pri:0, instance:TestClasses.SwagLabTestClass@741a8937]" started-at="2022-06-06T16:00:51 IST" name="loginApplication" finished-at="2022-06-06T16:00:52 IST" duration-ms="748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="verifyTest23()[pri:2, instance:TestClasses.SwagLabTestClass@741a8937]" started-at="2022-06-06T16:00:52 IST" name="verifyTest23" finished-at="2022-06-06T16:00:53 IST" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest23 -->
+        <test-method is-config="true" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:TestClasses.SwagLabTestClass@741a8937]" started-at="2022-06-06T16:00:53 IST" name="logoutFromApp" finished-at="2022-06-06T16:00:53 IST" duration-ms="531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTest23 status=SUCCESS method=SwagLabTestClass.verifyTest23()[pri:2, instance:TestClasses.SwagLabTestClass@741a8937] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="loginApplication()[pri:0, instance:TestClasses.SwagLabTestClass@741a8937]" started-at="2022-06-06T16:00:53 IST" name="loginApplication" finished-at="2022-06-06T16:00:54 IST" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="verifyTest3()[pri:3, instance:TestClasses.SwagLabTestClass@741a8937]" started-at="2022-06-06T16:00:54 IST" name="verifyTest3" finished-at="2022-06-06T16:00:54 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest3 -->
+        <test-method is-config="true" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:TestClasses.SwagLabTestClass@741a8937]" started-at="2022-06-06T16:00:54 IST" name="logoutFromApp" finished-at="2022-06-06T16:00:55 IST" duration-ms="517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTest3 status=SUCCESS method=SwagLabTestClass.verifyTest3()[pri:3, instance:TestClasses.SwagLabTestClass@741a8937] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="loginApplication()[pri:0, instance:TestClasses.SwagLabTestClass@741a8937]" started-at="2022-06-06T16:00:55 IST" name="loginApplication" finished-at="2022-06-06T16:00:56 IST" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="verifyTest4()[pri:4, instance:TestClasses.SwagLabTestClass@741a8937]" started-at="2022-06-06T16:00:56 IST" name="verifyTest4" finished-at="2022-06-06T16:00:56 IST" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest4 -->
+        <test-method is-config="true" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:TestClasses.SwagLabTestClass@741a8937]" started-at="2022-06-06T16:00:56 IST" name="logoutFromApp" finished-at="2022-06-06T16:00:57 IST" duration-ms="529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTest4 status=SUCCESS method=SwagLabTestClass.verifyTest4()[pri:4, instance:TestClasses.SwagLabTestClass@741a8937] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:TestClasses.SwagLabTestClass@741a8937]" started-at="2022-06-06T16:00:57 IST" name="clearObject" finished-at="2022-06-06T16:00:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="ClosedBrowser()[pri:0, instance:TestClasses.SwagLabTestClass@741a8937]" started-at="2022-06-06T16:00:57 IST" name="ClosedBrowser" finished-at="2022-06-06T16:01:05 IST" duration-ms="7771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosedBrowser -->
+      </class> <!-- TestClasses.SwagLabTestClass -->
+    </test> <!-- FireFoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
