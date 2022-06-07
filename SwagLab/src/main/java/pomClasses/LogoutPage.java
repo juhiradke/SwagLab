@@ -8,6 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LogoutPage 
 {
+	//Sysotem.out.print
 	WebDriver driver;
 	
 	@FindBy (xpath="//button[@id='react-burger-menu-btn']")
