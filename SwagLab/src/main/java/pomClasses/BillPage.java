@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class BillPage 
 {
+	//System.out.println
 	WebDriver driver;
    @FindBy(xpath="//button[@id='finish']")
    private WebElement finish;
